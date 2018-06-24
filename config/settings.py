@@ -23,9 +23,15 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = ')=4m-m+hal41^$xj((5zu#q9+f+rkse6m4e!=)s(r677gga3z)'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    'abl.pythonanywhere.com',
+    'www.ablethiopia.com',
+    'ablethiopia.com',
+]
 
 
 # Application definition
