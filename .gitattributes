@@ -1,4 +1,3 @@
 static/* linguist-vendored
-pages/templates/* linguist-vendored
-blogs/templates/* linguist-vendored
+deft/templates/* linguist-vendored
 templates/* linguist-vendored
